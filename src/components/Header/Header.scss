@@ -1,0 +1,12 @@
+.header {
+  min-height: 8rem;
+
+  &__logo {
+    width: 200px;
+  }
+
+  &__strapline {
+    font-size: 1em;
+    font-style: italic;
+  }
+}

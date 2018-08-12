@@ -1,0 +1,20 @@
+.spinner {
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-name: loading-spinner;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+  height: 64px;
+  margin: 0 auto;
+  transform-origin: center center;
+  width: 64px;
+}
+
+@keyframes loading-spinner {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}

@@ -1,0 +1,21 @@
+@import '../../sass/config';
+
+.text-field {
+  margin: 0.5rem 0;
+
+  &__input {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 2rem;
+    padding: 0.25rem;
+    width: 100%;
+  }
+
+  &__label {
+
+
+    &--hidden {
+      @include visually-hide;
+    }
+  }
+}

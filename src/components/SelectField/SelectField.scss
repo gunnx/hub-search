@@ -1,0 +1,12 @@
+.select-field {
+  margin: 0.5rem 0;
+
+  &__input {
+    min-width: 10rem;
+  }
+
+  &__label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+}

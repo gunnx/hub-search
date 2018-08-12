@@ -1,0 +1,10 @@
+// store any shared variables/mixins here
+
+@mixin visually-hide {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; // [1]
+  width: 1px;
+}
